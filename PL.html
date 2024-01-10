@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  height: 3px;
+  width: 200px;
+  background-color: #ffffffe4;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #575b59;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+<!--===============Sidebar===========================-->
+<div class="sidebar">
+  <a class="active" href="index.html">Home</a>
+  <a href="PL.html">DSA Playlist</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+<!--===============Content===========================-->
+<div class="content">
+    <div class="container">
+        <a class="card1" href="https://www.youtube.com/playlist?list=PLlOvuqt1q9bub3A84wRozg6o94fJ_9E47" target="_blank">
+          <h3>Data Structures and Algorithms using Java (Telugu)</h3>
+          <p class="small">Card description with lots of great facts and interesting details.</p>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        
+        <a class="card2" href="https://www.youtube.com/playlist?list=PLMBJ57zQd3I9h1YkfnYst18SglY7Ffqn3" target="_blank">
+          <h3>Data Structures and Algorithms using Java</h3>
+          <p class="small">
+            Shubham Awasthi
+            39 videos </p>
+          
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        
+        <a class="card3" href="https://www.hackerrank.com/contests/mountblue-technologies/challenges" target="_blank">
+          <h3>MountBlue</h3>
+          <p class="small">Card description with lots of great facts and interesting details.</p>
+          <div class="dimmer"></div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        <a class="card2" href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ" target="_blank">
+          <h3>Kunal Kushava</h3>
+          <p class="small">Card description with lots of great facts and interesting details.</p>
+          <div class="dimmer"></div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        <!--a class="card3" href="#">
+          <h3>This is option 3</h3>
+          <p class="small">Card description with lots of great facts and interesting details.</p>
+          <div class="dimmer"></div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        <a class="card3" href="#">
+          <h3>This is option 3</h3>
+          <p class="small">Card description with lots of great facts and interesting details.</p>
+          <div class="dimmer"></div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        
+    </div-->
+    <br>
+    <br>
+
+    <a href="https://leetcode.com/problemset/"   class="btn-shadow" target="_blank">Leetcode</a><span></span>
+    <a href="https://www.hackerrank.com/dashboard"  class="btn-shadow" target="_blank">HakerRank</a>
+</div>
+
+</body>
+</html>
